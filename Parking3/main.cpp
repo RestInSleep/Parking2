@@ -17,6 +17,9 @@ bool isEnteringPaymentOk(std::string& s) {
 }
 
 
+
+
+
 int main() {
     std::string name{"TK56 20.00 10.56"};
     std::cout << isEnteringPaymentOk(name);
